@@ -73,7 +73,7 @@ contract FundMe {
         fund();
     }
 
-    ////////////////////////////
+
 
     /**
      * Getter Functions
