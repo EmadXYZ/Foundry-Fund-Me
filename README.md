@@ -29,18 +29,19 @@ Allows users to fund with ETH validated in USD, and only the contract owner can 
 ---
 
 ## 🧠 Contract Architecture
-
+```
 📁 src/
-├── FundMe.sol # Main smart contract for funding logic
-└── PriceConverter.sol # Library for ETH to USD conversion
+├── FundMe.sol            # Main smart contract for funding logic
+└── PriceConverter.sol    # Library for ETH to USD conversion
 
 📁 script/
-├── DeployFundMe.s.sol # Automated deployment script
-├── HelperConfig.s.sol # Environment/network configuration
-└── Interactions.s.sol # Scripts for interacting with deployed contract
+├── DeployFundMe.s.sol    # Automated deployment script
+├── HelperConfig.s.sol    # Environment/network configuration
+└── Interactions.s.sol    # Scripts for interacting with deployed contract
 
 📁 test/
-└── FundMeTest.t.sol # Unit and integration tests (Forge)
+└── FundMeTest.t.sol      # Unit and integration tests (Forge)
+```
 
 ---
 
