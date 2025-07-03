@@ -67,8 +67,8 @@ Feel free to use, modify, or build upon this project in your own decentralized a
 To clone and run the project locally:
 
 ```bash
-git clone https://github.com/EmadXYZ/FundMe.git
-cd FundMe
+https://github.com/EmadXYZ/Foundry-Fund-Me.git
+cd Foundry-Fund-Me
 forge install
 forge build
 forge test
